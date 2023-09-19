@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangel-container{
+            background-color: black;
+            color: azure;
+            width: 500px;
+            border: 30px solid gray;
+            padding: 50px;
+            margin: auto;         
+        }
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: blueviolet;
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangel-container">
+        <h1>Rectangel Converter</h1>
+        <p>Panjang</p>
+        <input class="panjang-input-field" type="text">
+        <p>Lebar</p>
+        <input class="lebar-input-field" type="text">
+        <button onclick="myFunction()" class="calculate">Calculator</button>
+    </div>
+    <script src="rec.js"></script>
+</body>
+</html>
